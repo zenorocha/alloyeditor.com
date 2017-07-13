@@ -12731,8 +12731,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       'contenteditable', 'true',
       'data-placeholder', 'Write content here');
     if (opt_data.contentHtml) {
-      var dyn14 = opt_data.contentHtml;
-      if (typeof dyn14 == 'function') dyn14(); else if (dyn14 != null) itext(dyn14);
+      var dyn17 = opt_data.contentHtml;
+      if (typeof dyn17 == 'function') dyn17(); else if (dyn17 != null) itext(dyn17);
     }
   ie_close('div');
 }
@@ -12856,23 +12856,23 @@ if (goog.DEBUG) {
  * @return {void}
  * @suppress {checkTypes}
  */
-function __deltemplate_s208_d34389eb(opt_data, opt_ignored, opt_ijData) {
+function __deltemplate_s242_d34389eb(opt_data, opt_ignored, opt_ijData) {
   ie_open('a', null, null,
       'class', 'sidebar-link ' + (opt_data.page.active ? 'sidebar-link-selected' : ''),
       'href', opt_data.page.url);
     ie_void('span', null, null,
         'class', 'sidebar-icon icon-16-' + opt_data.page.icon);
     ie_open('span');
-      var dyn20 = opt_data.page.title;
-      if (typeof dyn20 == 'function') dyn20(); else if (dyn20 != null) itext(dyn20);
+      var dyn23 = opt_data.page.title;
+      if (typeof dyn23 == 'function') dyn23(); else if (dyn23 != null) itext(dyn23);
     ie_close('span');
   ie_close('a');
 }
-exports.__deltemplate_s208_d34389eb = __deltemplate_s208_d34389eb;
+exports.__deltemplate_s242_d34389eb = __deltemplate_s242_d34389eb;
 if (goog.DEBUG) {
-  __deltemplate_s208_d34389eb.soyTemplateName = 'Sidebar.__deltemplate_s208_d34389eb';
+  __deltemplate_s242_d34389eb.soyTemplateName = 'Sidebar.__deltemplate_s242_d34389eb';
 }
-soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'sidebar', 0, __deltemplate_s208_d34389eb);
+soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'sidebar', 0, __deltemplate_s242_d34389eb);
 
 exports.render.params = ["section"];
 exports.render.types = {"section":"any"};
@@ -13021,14 +13021,14 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param220 = function() {
+  var param142 = function() {
     $header(opt_data, null, opt_ijData);
     $demo(null, null, opt_ijData);
     $highlights(null, null, opt_ijData);
     $testimonial(null, null, opt_ijData);
     $footer(null, null, opt_ijData);
   };
-  $templateAlias1(soy.$$assignDefaults({content: param220}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param142}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -13049,8 +13049,8 @@ function $header(opt_data, opt_ignored, opt_ijData) {
     ie_open('div', null, null,
         'class', 'container');
       ie_open('h1');
-        var dyn21 = opt_data.project;
-        if (typeof dyn21 == 'function') dyn21(); else if (dyn21 != null) itext(dyn21);
+        var dyn14 = opt_data.project;
+        if (typeof dyn14 == 'function') dyn14(); else if (dyn14 != null) itext(dyn14);
       ie_close('h1');
       ie_open('h1', null, null,
           'class', 'header-title');
@@ -13061,8 +13061,8 @@ function $header(opt_data, opt_ignored, opt_ijData) {
       ie_close('h1');
       ie_open('h2', null, null,
           'class', 'header-subtitle');
-        var dyn22 = opt_data.site.index.description;
-        if (typeof dyn22 == 'function') dyn22(); else if (dyn22 != null) itext(dyn22);
+        var dyn15 = opt_data.site.index.description;
+        if (typeof dyn15 == 'function') dyn15(); else if (dyn15 != null) itext(dyn15);
       ie_close('h2');
       ie_open('h3');
         itext('Supported browsers: IE9+  -  Edge  -  Chrome  -  Firefox  -  Safari');
@@ -13078,8 +13078,8 @@ function $header(opt_data, opt_ignored, opt_ijData) {
             'href', 'https://github.com/liferay/alloy-editor/releases/download/' + opt_data.site.version + '/alloy-editor-' + opt_data.site.version + '.zip',
             'class', 'btn btn-default');
           itext('DOWNLOAD (');
-          var dyn23 = opt_data.site.version;
-          if (typeof dyn23 == 'function') dyn23(); else if (dyn23 != null) itext(dyn23);
+          var dyn16 = opt_data.site.version;
+          if (typeof dyn16 == 'function') dyn16(); else if (dyn16 != null) itext(dyn16);
           itext(')');
         ie_close('a');
       ie_close('div');
@@ -13104,7 +13104,7 @@ function $demo(opt_data, opt_ignored, opt_ijData) {
       'class', 'container-alloyeditor');
     ie_open('div', null, null,
         'class', 'container-fluid container-fluid-960');
-      var param242 = function() {
+      var param164 = function() {
         ie_open('div', null, null,
             'class', 'col-md-16');
           ie_open('h3', null, null,
@@ -13129,7 +13129,7 @@ function $demo(opt_data, opt_ignored, opt_ijData) {
           ie_close('p');
         ie_close('div');
       };
-      $templateAlias2({divId: 'why', contentHtml: param242}, null, opt_ijData);
+      $templateAlias2({divId: 'why', contentHtml: param164}, null, opt_ijData);
     ie_close('div');
   ie_close('div');
 }
