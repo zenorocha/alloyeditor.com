@@ -7,7 +7,7 @@ module.exports = {
 	apiConfig: {
 		layout: 'api',
 		project: {
-			refs: ['1.4.1'],
+			refs: ['1.5.0'],
 			repo: 'alloy-editor',
 			src: [
 				'src/core/*.js',
@@ -25,7 +25,7 @@ module.exports = {
 		'shell'
 	],
 	entryPoints: {
-		electricAPI: path.join(__dirname, 'src/partials/ElectricAPI.js')
+		electricAPI: path.join(__dirname, 'src/partials/ElectricAPIBundle.js')
 	},
 	metalComponents: ['electric-marble-components'],
 	sassOptions: {
